@@ -5,4 +5,11 @@ class HomeController < ApplicationController
     @pokemon = trainerless_pokemon.sample
   end
 
+  def capture
+    pokemon = params[:id]
+    puts pokemon
+    Pokemon.update(pokemon, :trainer => Trainer.where(id: current_trainer).first)
+    redirect_to '/'
+  end
+
 end
