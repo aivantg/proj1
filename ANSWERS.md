@@ -27,6 +27,9 @@ update! You can also specify an action and parameters using "action: "show" id: 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
 by adding something to "flash" it gives a hash available use to the next action and by setting it to the error message, the next time an action is done, It gets displayed by application.html.erb when it renders messages
+
 # Give us feedback on the project and decal below!
+
+
 
 # Extra credit: Link your Heroku deployed app
