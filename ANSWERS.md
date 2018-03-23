@@ -28,9 +28,11 @@ update! You can also specify an action and parameters using "action: "show" id: 
 
 by adding something to "flash" it gives a hash available use to the next action and by setting it to the error message, the next time an action is done, It gets displayed by application.html.erb when it renders messages
 
+Repo Link: https://github.com/aivantg/proj1
+
 # Give us feedback on the project and decal below!
 
-
+This decal is so great! This project was actually really fun, but I think you could pose some more interesting challenges because I feel like in some sense this followed very directly from remembering lecture material (which can be difficult) but it feels cooler when you're trying to implement more challenging things (though I guess that's what extra credit is for)
 
 # Extra credit: Link your Heroku deployed app
 
