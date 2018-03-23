@@ -7,9 +7,8 @@ class HomeController < ApplicationController
 
   def capture
     pokemon = params[:id]
-    puts pokemon
-    Pokemon.update(pokemon, :trainer => Trainer.where(id: current_trainer).first)
-    redirect_to '/'
+    Pokemon.update(pokemon, :trainer => current_trainer)
+    redirect_to action: "index"
   end
 
 end
