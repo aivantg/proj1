@@ -15,8 +15,3 @@
     health: 100,
   )
 end
-
-# Make other trainers
-%w(Ash Gary Misty Brock).each do |name|
-  Trainer.create name: name, email: name+"@pokeportal.com", password: 'password'
-end
